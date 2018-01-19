@@ -1,0 +1,74 @@
+.logo{
+  width:200px;
+}
+.logofoot{
+  width:50px;
+}
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
+
+}
+.clearfix{
+  clear:both;
+}
+body{
+
+  font-family: 'Lato',sans-serif;
+  background-color: #442048;
+  color:white;
+
+}
+
+header{
+  padding: 40px;
+  height: 40px;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px 15px;
+}
+header ul li a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #FFCB59;
+}
+.distance{
+  width:500px;
+  margin: 0 auto;
+
+}
+.distance h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.distance label,.distance input{
+  display: block;
+}
+
+.distance textarea,.distance input,.distance select {
+
+   background-color: #442048;
+  border: 1px solid white;
+  width: 100%;
+  margin: 7px 0 15px;
+  color: white;
+  padding: 0 5px;
+  font-size: 20px;
+  font-family: inherit;
+
+}
+.distance input{
+  height: 40px;
+}
+.buttonstyle{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-left:200px;
+  background-color: orange;
+  color: white;
+}
