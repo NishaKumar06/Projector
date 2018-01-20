@@ -3,6 +3,7 @@
 }
 .logofoot{
   width:50px;
+  padding: 5px;
 }
 .fleft{
   float: left;
@@ -60,6 +61,8 @@ header ul li a{
   padding: 0 5px;
   font-size: 20px;
   font-family: inherit;
+  white-space: nowrap;
+
 
 }
 .distance input{
@@ -71,4 +74,15 @@ header ul li a{
   margin-left:200px;
   background-color: orange;
   color: white;
+  text-align: centre;
+  width:100px;
+}
+.divide{
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.divide lang{
+  padding: 0;
 }
