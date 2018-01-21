@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> add movie</title>
+  <meta name="description" content="add movies">
+  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/addmovie.css">
+
+      <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Lato:300">
+  </head>
+  <body>
+    <header>
+
+      <img  class="logo fleft"src="images/projector-logo.png">
+
+      <nav>
+        <ul class="fright">
+             <li><a href="#">HOME</a></li>
+               <li><a href="#">Add movie</a></li>
+          </ul>
+      </nav>
+      </header>
+
+  <div class="clearfix">
+
+  <form  class="distance" action="/sample-action" method="get">
+    <h2> Add movie</h2>
+    <ul>
+
+       <li>
+         <label for="movie-name"> Movie name</label>
+         <input type="text" name="movie-name"/>
+       </li>
+       <li>
+         <label for="release-year"> Release year</label>
+         <input type="text" name="release-year"/>
+       </li>
+       <li>
+         <div class="divide lang">
+       <label for="language">Language</label>
+     <select name="language">
+          <option name="english">English</option>
+          <option name="tamil">Tamil</option>
+          <option name="hindi">Hindi</option>
+     </select>
+   </div><div class="divide">
+     <label for="rating">Rating</label>
+     <select name="rating">
+          <option name="5">5</option>
+          <option name="4">4</option>
+          <option name="3">3</option>
+          <option name="2">2</option>
+          <option name="1">1</option>
+     </select>
+   </div>
+ </li>
+     <li>
+       <label for="url"> Thumbnail URL</label>
+       <input type="url" name="url"/>
+     </li>
+     <li>
+       <label for="plot"> Plot</label>
+       <textarea rows="6"></textarea>
+     </li>
+     <li>
+       <label for="post-url">Poster URL</label>
+       <input type="url" name="post-url"/>
+     </li>
+     <li>
+       <label for="cast"> Cast</label>
+      <textarea rows="6"></textarea>
+     </li>
+
+  </ul>
+
+    <button  class="buttonstyle" type="submit" name="submit">save</button>
+
+
+  </form>
+</div>
+  <footer>
+    <ul>
+      <img  class="logofoot fleft" src="images/facebook.png">
+      <img   class="logofoot fleft" src="images/twitter.png">
+      <img  class="logofoot fleft" src="images/instagram.png">
+        <img  class="logo fright"src="images/projector-logo.png">
+    </ul>
+  </body>
+  </html>
