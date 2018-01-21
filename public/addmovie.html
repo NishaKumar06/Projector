@@ -24,7 +24,7 @@
 
   <div class="clearfix">
 
-  <form  class="distance" action="/sample-action" method="get">
+  <form  class="distance" id="add_movie_form" onsubmit="event.preventDefault(); addmovie();" method="get">
     <h2> Add movie</h2>
     <ul>
 
@@ -86,5 +86,6 @@
       <img  class="logofoot fleft" src="images/instagram.png">
         <img  class="logo fright"src="images/projector-logo.png">
     </ul>
+    <script src="./js/addmovie.js"></script>
   </body>
   </html>
